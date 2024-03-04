@@ -9,21 +9,21 @@
 ## Recon
 Đầu tiên tớ thấy đề cho một cái biệt danh, search một chút thì tớ tìm được tài khoản X này 
 
-![](/osint1.png "") 
+![](/images/osint1.png "") 
 
 Tìm mãi trong đây thì tớ vẫn không thấy có gì khả nghi trừ cái post đầu tiên `Who is Cookie the baby chick ? Very Cute indeed :)`, nhưng trong thời gian cuộc thi không cách nào tìm được thông tin gì từ đây, khi kết thúc giải tớ dm author thì được biết nó phải là `cookiethebabychick`, sử dụng [tool này](https://www.idcrawl.com/) thì tớ tìm được account IG của hắn
 
-![](/osint2.png "") 
+![](/images/osint2.png "") 
 
 Một số thông tin thu thập được:
 1. Người ta đang theo dõi là `h3ck3r_h3_bh41` aka `cookiethebabychick's dad` aka `simon_j_peter`.
 
-![](/osint3.png "") 
-![](/osint4.png "") 
+![](/images/osint3.png "") 
+![](/images/osint4.png "") 
    
 2. Hắn có một kênh Youtube với username là `husky woof woof`.
 
-![](/osint5.png "") 
+![](/images/osint5.png "") 
 
 Tớ đã thử dùng tool trên để tìm những social khác của `husky woof woof` nhưng không được, những tài khoản tìm được đều là rabbit hole. Betak quá nên tìm lại description đọc thì 
 
@@ -31,33 +31,33 @@ Tớ đã thử dùng tool trên để tìm những social khác của `husky wo
 
 Ở đây có đề cập tới một `cybersecurity team`, nhận ra là organization of this ctf cũng là một cyber team. Tìm thử trên gg thì đúng là như vậy, tớ có được Linkedin của tổ chức.
 
-![](/osint6.png "") 
+![](/images/osint6.png "") 
 
 Recon các thành viên của tổ chức thì tớ tìm được một tài khoản khá là khả nghi
 
-![](/osint7.png "") 
+![](/images/osint7.png "") 
 
 Tiếp tục tìm kiếm thì tada, Linkedin của `h3ck3r_h3_bh41` hay bây giờ là `simon_john_peter` 
 
-![](/osint8.png "") 
+![](/images/osint8.png "") 
 
 Thừa thắng xông lên, ở post thứ 2 có một link ảnh
 
-![](/osint9.png "") 
-![](/osint10.png "") 
+![](/images/osint9.png "") 
+![](/images/osint10.png "") 
 
 Tải về và phân tích thì tớ có được tọa độ của bức anh, dùng [tool này](https://www.aperisolve.com/)
 
-![](/osint11.png "")
+![](/images/osint11.png "")
 
 Tìm kiếm theo tọa độ thì tớ có được địa điểm chụp bức ảnh là ở ` Maharashtra, India`, nhưng cụ thể có vẻ không đúng lắm
 
-![](/osint12.png "")
+![](/images/osint12.png "")
 
 Lúc này nhớ lại con hổ trong bức anh, có lẽ nào đây là một sở thú hay vườn hoang dã gì gì ở gần đây, tiếp tục search gg thì tada again
 
-![](/osintend.png "")
-![](/osintend2.png "")
+![](/images/osintend.png "")
+![](/images/osintend2.png "")
 
 Flag: VishwaCTF{simon_john_peter_tadobanationalpark.in}
 ## In Conclusion
